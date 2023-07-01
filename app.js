@@ -57,8 +57,19 @@ function sin_Btn(){
         output.value=2.71828182846;
     }
 
-window.addEventListener("keydown",e=>{
+window.addEventListener("keypress",e=>{
     if (e.code === 'NumpadEnter' || e.key === 'Enter'){
         calculate();
         
+}});
+
+window.addEventListener("keypress",e=>{
+    if (e.code === 'Delete' || e.key ===  'Delete'){
+        clearBtn();
+        
+}});
+
+window.addEventListener("keypress",e=>{
+    if (e.code === 'Backspace'){
+        deleteBtn();        
 }});
