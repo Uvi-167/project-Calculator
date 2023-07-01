@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Scientific-Calculator</title>
+</head>
+<body>
+    <h2>Calculator</h2>
+    <div class="container">
+        <div class="calculator">
+            <input id="Output-value"="text" placeholder="0">
+                <!-- 1st Row -->
+            <button class="clearBtn"onclick="clearBtn()">CL</button>
+            <button onclick="sin_Btn()">sin</button>
+            <button class="deleteBtn"onclick="deleteBtn()">DEL</button>
+            <button onclick="display('/')">/</button>
+            <button onclick="display('7')">7</button>
+            <button onclick="display('8')">8</button>
+            <button onclick="display('9')">9</button>
+                 <!-- 2nd Row -->
+            <button onclick="pi_Btn()">π</button>
+            <button onclick="cos_Btn()">cos</button>
+            <button onclick="log_Btn()">log</button>
+            <button onclick="display('*')">*</button>
+            <button onclick="display('4')">4</button>
+            <button onclick="display('5')">5</button>
+            <button onclick="display('6')">6</button>
+                <!-- 3rd Row -->
+            <button onclick="display('%')">%</button>           
+            <button onclick="tan_Btn()">tan</button>
+            <button onclick="sqrt_Btn()">√</button>
+            <button onclick="display('-')">-</button>
+            <button onclick="display('1')">1</button>
+            <button onclick="display('2')">2</button>
+            <button onclick="display('3')">3</button>
+                <!-- 4th row -->
+            <button onclick="e_Btn()">e</button>
+            <button onclick="pow_Btn()">Pow</button>
+            <button onclick="display('.')">.</button>
+            <button onclick="display('+')">+</button>
+            <button onclick="display('0')">0</button>
+            <button class="equalBtn" onclick="calculate()">=</button>
+     
+        </div>
+    </div>
+    <footer>created by uvi.</footer>
+
+  <script src="./app.js"></script>  
+</body>
+</html>
