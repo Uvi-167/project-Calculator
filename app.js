@@ -1,5 +1,10 @@
 const output = document.getElementById("Output-value");
 
+window.addEventListener("keypress",e=>{
+    if (e.code === 'Tab'){
+        output.focus();        
+}});
+
 function display(num){
     output.value += num;
 }
