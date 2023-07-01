@@ -57,3 +57,8 @@ function sin_Btn(){
         output.value=2.71828182846;
     }
 
+window.addEventListener("keydown",e=>{
+    if (e.code === 'NumpadEnter' || e.key === 'Enter'){
+        calculate();
+        
+}});
